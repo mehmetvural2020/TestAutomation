@@ -1,3 +1,5 @@
+package FirstTestA.src;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,12 +12,19 @@ public class GoogleAssignment {
 		System.setProperty("webdriver.chrome.driver", "/Users/Apple/eclipse-workspace/webdriver/chromedriver");
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://google.com.tr");
+		driver.get("https://google.com");
 		
 		WebElement element = driver.findElement(By.xpath("//input[@name=\"q\"]"));
-		element.sendKeys("Thailand Bangkok");
+		element.sendKeys("codingbook");
 		element.click();
 		element.submit();
+		
+//		WebElement element = driver.findElement(By.xpath("//input[@name=\"q\"]"));
+//		element.sendKeys("CodingBook"); 
+//		element.submit();
+//		
+//		driver.findElement(By.xpath("//cite[text()='codingbook.org']")).click();
+				
 	}
 
 }

@@ -1,3 +1,5 @@
+package FirstTestA.src;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -5,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AmazonAssignment {
 	public static void main(String[] args) {
-//		Chromedriver path
+//		chromedriver path
 		System.setProperty("webdriver.chrome.driver", "/Users/Apple/eclipse-workspace/webdriver/chromedriver");
 
 //		Create a driver and go to amazon.com
@@ -26,7 +28,7 @@ public class AmazonAssignment {
 		
 //		Enter valid password
 //		WebElement element3 = driver.findElement(By.xpath("//input[@id=\"ap_password\"]"));
-//		element3.sendKeys("Amazonpassword");
+//		element3.sendKeys("Amazon password");
 		
 //		Enter invalid password
 		WebElement element3 = driver.findElement(By.xpath("//input[@id=\"ap_password\"]"));
