@@ -22,7 +22,8 @@ public class Assignment2 {
 		driver.findElement(By.linkText("Test Automation")).click();
 		
 		driver.findElement(By.xpath("//a[@data-tab=\"#tab-curriculum\"]")).click();
-
+		
+		driver.findElement(By.xpath("//span[contains(text(),'Basic Test Automation – Assignments')]")).click();
 	}
 
 }
