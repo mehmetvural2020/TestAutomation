@@ -13,8 +13,12 @@ public class Assignment2 {
 	    WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		
+		WebElement element = driver.findElement(By.xpath("//input[@name=\"q\"]"));
+		element.sendKeys("CodingBook"); 
+		element.submit();
 		
-		
+		driver.findElement(By.xpath("//cite[text()='codingbook.org']")).click();
+
 
 	}
 

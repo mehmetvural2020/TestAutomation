@@ -19,11 +19,8 @@ public class GoogleAssignment {
 		element.click();
 		element.submit();
 		
-//		WebElement element = driver.findElement(By.xpath("//input[@name=\"q\"]"));
-//		element.sendKeys("CodingBook"); 
-//		element.submit();
 //		
-//		driver.findElement(By.xpath("//cite[text()='codingbook.org']")).click();
+//		
 				
 	}
 
