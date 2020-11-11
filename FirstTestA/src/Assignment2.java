@@ -18,7 +18,8 @@ public class Assignment2 {
 		element.submit();
 		
 		driver.findElement(By.xpath("//cite[text()='codingbook.org']")).click();
-
+		
+		driver.findElement(By.linkText("Test Automation")).click();
 
 	}
 
